@@ -1,0 +1,1543 @@
+<Globals>
+Name = Quaxly Glass Place V1
+Designer = quaxlysky035
+Location = Downtown Glass Quaxly District
+Description = Quaxly Glass Place V1
+Version = 1.0 V1
+CameraFloor = 0
+CameraPosition = 336, -246
+CameraRotation = 0, 0, 0
+Sky = noon
+<EndGlobals>
+<Textures>
+Load data/windows11e_inside.gif , zfloor1, 0.1, 0.1
+Load data/windows11e_inside.gif , zfloor2, 0.1, 0.1
+Load data/windows11e_inside.gif , zfloor3, 0.1, 0.1
+Load data/windows11e_inside.gif , zfloor4, 0.1, 0.1
+Load data/windows11e_inside.gif , zcei1, 0.1, 0.1
+Load data/windows11e_inside.gif , zcei2, 0.1, 0.1
+Load data/windows11e_inside.gif , zcei3, 0.1, 0.1
+Load data/windows11e_inside.gif , zcei4, 0.1, 0.1
+Load data/windows11e_inside.gif , zoutwin1, 0.1, 1
+Load data/windows11e_inside.gif , zoutwin2, 0.1, 1
+Load data/windows11e_inside.gif , zoutwin3, 0.1, 1
+Load data/windows11e_inside.gif , zoutwin4, 0.1, 1
+Load data/windows11e_inside.gif , zinwin1, 0.1, 1
+Load data/windows11e_inside.gif , zinwin2, 0.1, 1
+Load data/windows11e_inside.gif , zinwin3, 0.1, 1
+Load data/windows11e_inside.gif , zinwin4, 0.1, 1
+Load data/windows11e_inside.gif , zintwall1, 0.1, 1
+Load data/windows11e_inside.gif , zintwall2, 0.1, 1
+Load data/windows11e_inside.gif , zintwall3, 0.1, 1
+Load data/windows11e_inside.gif , zintwall4, 0.1, 1
+Load data/windows11e_inside.gif , zshaft, 0.2, 0.2
+Load data/windows11e_inside.gif , zgrass, 175, 175
+Load data/miscdoor89.gif , zdoor, 1, 1
+Load data/windows11e_inside.gif , zgray, 0.1, 0.1
+Load data/windows11e_inside.gif , zside, 0.2, 1
+Load data/windows11e_inside.gif , zglass, 0.5, 0.5
+Load data/windows11e_inside.gif, glasss, 1, 1
+Load data/windows11e_inside.gif, liftoutside, 0.1, 0.1
+Load data/windows11e_inside.gif., door, 1, 1
+Load data/windows11e_inside2.gif, doorr, 1, 1
+Load data/windows11e_inside.gif, doorrr, 1, 1
+Load data/windows11e_inside.gif, shaft1, 0.1, 0.1
+Load data/windows11e_inside.gif, grey, 1, 1
+Load data/windows11e_inside.gif, uurr, 1, 1
+Load data/blank.gif, doorrr, 1, 1
+Load data/blank.gif, glogo, 1, 1
+Load data/windows11e_inside.gif, gcei, 2, 2
+Load data/windows11e_inside.gif, gfloor, 2, 2
+Load data/windows11e_inside.gif, gwall, 2, 2
+Load data/windows11e_inside.gif, gwalll, 0.5, 2
+Load data/beno/mbuttonarrow.jpg, gup, 1, 1
+Load data/beno/mbuttonarrowlit.jpg, gupl, 1, 1
+Load data/beno/mbuttonarrow.jpg, gdown, 1, -1
+Load data/beno/mbuttonarrowlit.jpg, gdownl, 1, -1
+Load data/beno/mbuttonopen.JPG, gbuttonopen, 1, 1
+Load data/beno/mbuttonclose.JPG, gbuttonclose, 1, 1
+Load data/beno/mbuttonalarm.JPG, gbuttonalarm, 1, 1
+Load data/beno/tlit.jpg, garrowupl, 1, 1
+Load data/beno/tunlit.jpg, garrowup, 1, 1
+Load data/beno/tlit.jpg, garrowdownl, 1, -1
+Load data/beno/tunlit.jpg, garrowdown, 1, -1
+Load data/black.jpg, gnumber, 1, 1
+Load data/beno/mbutton.JPG, gbutton, 1, 1
+Load data/beno/mbutton.JPG, gbuttonlit, 1, 1
+AddTextRange 0, 10, gbutton, gbutton%number%, nimbus_sans.ttf, 45, %number%, 0, 0, 128, 128, center, center, 0, 0, 100
+AddTextRange 0, 10, gbuttonlit, gbuttonlit%number%, nimbus_sans.ttf, 45, %number%, 0, 0, 128, 128, center, center, 41, 40, 255
+AddTextRange 0, 10, gnumber, gnumber%number%, nimbus_sans.ttf, 50, %number%, -1, -1, -1, -1, center, center, 255, 0, 0
+<EndTextures>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddGround Ground, zgrass, -70000, -70000, 70000, 70000, 4, 7000, 7000
+Cut Landscape, 313, 3, -218, 360, 5, -175, false, true
+<Floor 0>
+ID = 0
+Name = 0
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 1>
+ID = 1
+Name = 1
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 2>
+ID = 2
+Name = 2
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 3>
+ID = 3
+Name = 3
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 4>
+ID = 4
+Name = 4
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 5>
+ID = 5
+Name = 5
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 6>
+ID = 6
+Name = 6
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 7>
+ID = 7
+Name = 7
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 8>
+ID = 8
+Name = 8
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 9>
+ID = 9
+Name = 9
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 10>
+ID = 10
+Name = 10
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 11>
+ID = 11
+Name = 11
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 12>
+ID = 12
+Name = 12
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 13>
+ID = 13
+Name = 13
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 14>
+ID = 14
+Name = 14
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 15>
+ID = 15
+Name = 15
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 16>
+ID = 16
+Name = 16
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 17>
+ID = 17
+Name = 17
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 18>
+ID = 18
+Name = 18
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 19>
+ID = 19
+Name = 19
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 20>
+ID = 20
+Name = 20
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 21>
+ID = 21
+Name = 21
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 22>
+ID = 22
+Name = 22
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 23>
+ID = 23
+Name = 23
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 24>
+ID = 24
+Name = 24
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 25>
+ID = 25
+Name = 25
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 26>
+ID = 26
+Name = 26
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 27>
+ID = 27
+Name = 27
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 28>
+ID = 28
+Name = 28
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 29>
+ID = 29
+Name = 29
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 30>
+ID = 30
+Name = 30
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 31>
+ID = 31
+Name = 31
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 32>
+ID = 32
+Name = 32
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 33>
+ID = 33
+Name = 33
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 34>
+ID = 34
+Name = 34
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 35>
+ID = 35
+Name = 35
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 36>
+ID = 36
+Name = 36
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 37>
+ID = 37
+Name = 37
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 38>
+ID = 38
+Name = 38
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 39>
+ID = 39
+Name = 39
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 40>
+ID = 40
+Name = 40
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 41>
+ID = 41
+Name = 41
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 42>
+ID = 42
+Name = 42
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 43>
+ID = 43
+Name = 43
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 44>
+ID = 44
+Name = 44
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 45>
+ID = 45
+Name = 45
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 46>
+ID = 46
+Name = 46
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 47>
+ID = 47
+Name = 47
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 48>
+ID = 48
+Name = 48
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 49>
+ID = 49
+Name = 49
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 50>
+ID = 50
+Name = 50
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 51>
+ID = 51
+Name = 51
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 52>
+ID = 52
+Name = 52
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 53>
+ID = 53
+Name = 53
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 54>
+ID = 54
+Name = 54
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 55>
+ID = 55
+Name = 55
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 56>
+ID = 56
+Name = 56
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 57>
+ID = 57
+Name = 57
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 58>
+ID = 58
+Name = 58
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 59>
+ID = 59
+Name = 59
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 60>
+ID = 60
+Name = 60
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 61>
+ID = 61
+Name = 61
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor 62>
+ID = 62
+Name = 62
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -1>
+ID = -1
+Name = -1
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -2>
+ID = -2
+Name = -2
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -3>
+ID = -3
+Name = -3
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -4>
+ID = -4
+Name = -4
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -5>
+ID = -5
+Name = -5
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -6>
+ID = -6
+Name = -6
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -7>
+ID = -7
+Name = -7
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -8>
+ID = -8
+Name = -8
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -9>
+ID = -9
+Name = -9
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+<Floor -9>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -8>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -7>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -6>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -5>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -4>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -3>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -2>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor -1>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 0>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+cut 330, 4, -220, 334, (10 + 4), -216, true, false
+<endfloor>
+cut external, 330, ((Floor(0).Altitude) + 4), -220, 334, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 333, 4, -220, 337, (10 + 4), -216, true, false
+<endfloor>
+cut external, 333, ((Floor(0).Altitude) + 4), -220, 337, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 339, 4, -220, 343, (10 + 4), -216, true, false
+<endfloor>
+cut external, 339, ((Floor(0).Altitude) + 4), -220, 343, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 337, 4, -220, 341, (10 + 4), -216, true, false
+<endfloor>
+cut external, 337, ((Floor(0).Altitude) + 4), -220, 341, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 343, 4, -220, 347, (10 + 4), -216, true, false
+<endfloor>
+cut external, 343, ((Floor(0).Altitude) + 4), -220, 347, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 328, 4, -220, 332, (10 + 4), -216, true, false
+<endfloor>
+cut external, 328, ((Floor(0).Altitude) + 4), -220, 332, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 323, 4, -220, 327, (10 + 4), -216, true, false
+<endfloor>
+cut external, 323, ((Floor(0).Altitude) + 4), -220, 327, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 326, 4, -220, 330, (10 + 4), -216, true, false
+<endfloor>
+cut external, 326, ((Floor(0).Altitude) + 4), -220, 330, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+cut 346, 4, -220, 350, (10 + 4), -216, true, false
+<endfloor>
+cut external, 346, ((Floor(0).Altitude) + 4), -220, 350, (((Floor(0).Altitude) + 10) + 5), -216, true, false
+<floor 0>
+<endfloor>
+<Floor 1>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 2>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 3>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 4>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 5>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 6>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 7>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 8>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 9>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 10>
+SetAutoSize = true, true
+DrawWalls = false, true, false, false, false, false
+AddFloor a, zgray, 0, 313, -218, 360, -175, 13.97, 13.97, 0, 0, True
+AddFloor a, zfloor1, 0, 313, -218, 360, -175, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddFloor a, zcei1, 0, 313, -218, 360, -175, 9.97, 9.97, 0, 0, False
+AddFloor a, zgray, 0, 313, -218, 360, -175, 4, 4, 0, 0, True
+SetAutoSize = true, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, zinwin4, 0, 313, -218, 313, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 360, -218, 360, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -218, 360, -218, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -175, 360, -175, 10, 10, 4, 4, 0, 0, True
+DrawWalls = true, false, false, false, false, false
+AddWall a, zoutwin4, 0, 313, -218, 313, -175, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 360, -218, 360, -175, 10, 10, 0, 0, 0, 0, False
+AddWall a, zoutwin4, 0, 313, -218, 360, -218, 10, 10, 4, 4, 0, 0, True
+AddWall a, zinwin4, 0, 313, -175, 360, -175, 10, 10, 0, 0, 0, 0, False
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 11>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 12>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 13>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 14>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 15>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 16>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 17>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 18>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 19>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 20>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 21>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 22>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 23>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 24>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 25>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 26>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 27>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 28>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 29>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 30>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 31>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 32>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 33>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 34>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 35>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 36>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 37>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 38>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 39>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 40>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 41>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 42>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 43>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 44>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 45>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 46>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 47>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 48>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 49>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 50>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 51>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 52>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 53>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 54>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 55>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 56>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 57>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 58>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 59>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 60>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 61>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+<Floor 62>
+SetAutoSize = true, false
+DrawWalls = true, true, true, true, false, false
+<endfloor>
+####javascript####floor9square1floor = 0;floor9square1wallu = 3;floor9square1walld = 3;floor9square1walll = 3;floor9square1wallr = 3;floor9square1x = 313;floor9square1xa = 360;floor9square1y = 175;floor9square1ya = 218;floor10square1floor = 0;floor10square1wallu = 3;floor10square1walld = 3;floor10square1walll = 3;floor10square1wallr = 3;floor10square1x = 313;floor10square1xa = 360;floor10square1y = 175;floor10square1ya = 218;floor11square1floor = 0;floor11square1wallu = 3;floor11square1walld = 3;floor11square1walll = 3;floor11square1wallr = 3;floor11square1x = 313;floor11square1xa = 360;floor11square1y = 175;floor11square1ya = 218;floor12square1floor = 0;floor12square1wallu = 3;floor12square1walld = 3;floor12square1walll = 3;floor12square1wallr = 3;floor12square1x = 313;floor12square1xa = 360;floor12square1y = 175;floor12square1ya = 218;floor13square1floor = 0;floor13square1wallu = 3;floor13square1walld = 3;floor13square1walll = 3;floor13square1wallr = 3;floor13square1x = 313;floor13square1xa = 360;floor13square1y = 175;floor13square1ya = 218;floor14square1floor = 0;floor14square1wallu = 3;floor14square1walld = 3;floor14square1walll = 3;floor14square1wallr = 3;floor14square1x = 313;floor14square1xa = 360;floor14square1y = 175;floor14square1ya = 218;floor15square1floor = 0;floor15square1wallu = 3;floor15square1walld = 3;floor15square1walll = 3;floor15square1wallr = 3;floor15square1x = 313;floor15square1xa = 360;floor15square1y = 175;floor15square1ya = 218;floor16square1floor = 0;floor16square1wallu = 3;floor16square1walld = 3;floor16square1walll = 3;floor16square1wallr = 3;floor16square1x = 313;floor16square1xa = 360;floor16square1y = 175;floor16square1ya = 218;floor17square1floor = 0;floor17square1wallu = 3;floor17square1walld = 3;floor17square1walll = 3;floor17square1wallr = 3;floor17square1x = 313;floor17square1xa = 360;floor17square1y = 175;floor17square1ya = 218;floor18square1floor = 0;floor18square1wallu = 3;floor18square1walld = 3;floor18square1walll = 3;floor18square1wallr = 3;floor18square1x = 313;floor18square1xa = 360;floor18square1y = 175;floor18square1ya = 218;floor19square1floor = 0;floor19square1wallu = 3;floor19square1walld = 3;floor19square1walll = 3;floor19square1wallr = 3;floor19square1x = 313;floor19square1xa = 360;floor19square1y = 175;floor19square1ya = 218;floor9doors1xy = 'outside';floor9doors1x = 332;floor9doors1y = 218;floor9doors2xy = 'outside';floor9doors2x = 335;floor9doors2y = 218;floor9doors3xy = 'outside';floor9doors3x = 341;floor9doors3y = 218;floor9doors4xy = 'outside';floor9doors4x = 339;floor9doors4y = 218;floor9doors5xy = 'outside';floor9doors5x = 345;floor9doors5y = 218;floor9doors6xy = 'outside';floor9doors6x = 330;floor9doors6y = 218;floor9doors7xy = 'outside';floor9doors7x = 325;floor9doors7y = 218;floor9doors8xy = 'outside';floor9doors8x = 328;floor9doors8y = 218;floor9doors9xy = 'outside';floor9doors9x = 348;floor9doors9y = 218;lift1top = 19;lift1bottom = 9;lift1lifts = 1;lift1x = 337;lift1xa = 10;lift1y = 195;lift1ya = 10;lift1custom = false;lift1date = 3;lift1an = 1;lift1as = 5;lift1ae = 3;lift1aw = 3;lift1type = 'g';lift1typetype = 'ThyssenKrupp 3mps';lift1tex = 'windows11e_inside.gif';lift1text = '10';floor0squares = 0;floor1squares = 0;floor2squares = 0;floor3squares = 0;floor4squares = 0;floor5squares = 0;floor6squares = 0;floor7squares = 0;floor8squares = 0;floor9squares = 1;floor10squares = 1;floor11squares = 1;floor12squares = 1;floor13squares = 1;floor14squares = 1;floor15squares = 1;floor16squares = 1;floor17squares = 1;floor18squares = 1;floor19squares = 1;floor20squares = 0;floor21squares = 0;floor22squares = 0;floor23squares = 0;floor24squares = 0;floor25squares = 0;floor26squares = 0;floor27squares = 0;floor28squares = 0;floor29squares = 0;floor30squares = 0;floor31squares = 0;floor32squares = 0;floor33squares = 0;floor34squares = 0;floor35squares = 0;floor36squares = 0;floor37squares = 0;floor38squares = 0;floor39squares = 0;floor40squares = 0;floor41squares = 0;floor42squares = 0;floor43squares = 0;floor44squares = 0;floor45squares = 0;floor46squares = 0;floor47squares = 0;floor48squares = 0;floor49squares = 0;floor50squares = 0;floor51squares = 0;floor52squares = 0;floor53squares = 0;floor54squares = 0;floor55squares = 0;floor56squares = 0;floor57squares = 0;floor58squares = 0;floor59squares = 0;floor60squares = 0;floor61squares = 0;floor62squares = 0;floor63squares = 0;floor64squares = 0;floor65squares = 0;floor66squares = 0;floor67squares = 0;floor68squares = 0;floor69squares = 0;floor70squares = 0;floor71squares = 0;floor0height = 10;floor1height = 10;floor2height = 10;floor3height = 10;floor4height = 10;floor5height = 10;floor6height = 10;floor7height = 10;floor8height = 10;floor9height = 10;floor10height = 10;floor11height = 10;floor12height = 10;floor13height = 10;floor14height = 10;floor15height = 10;floor16height = 10;floor17height = 10;floor18height = 10;floor19height = 10;floor20height = 10;floor21height = 10;floor22height = 10;floor23height = 10;floor24height = 10;floor25height = 10;floor26height = 10;floor27height = 10;floor28height = 10;floor29height = 10;floor30height = 10;floor31height = 10;floor32height = 10;floor33height = 10;floor34height = 10;floor35height = 10;floor36height = 10;floor37height = 10;floor38height = 10;floor39height = 10;floor40height = 10;floor41height = 10;floor42height = 10;floor43height = 10;floor44height = 10;floor45height = 10;floor46height = 10;floor47height = 10;floor48height = 10;floor49height = 10;floor50height = 10;floor51height = 10;floor52height = 10;floor53height = 10;floor54height = 10;floor55height = 10;floor56height = 10;floor57height = 10;floor58height = 10;floor59height = 10;floor60height = 10;floor61height = 10;floor62height = 10;floor63height = 10;floor64height = 10;floor65height = 10;floor66height = 10;floor67height = 10;floor68height = 10;floor69height = 10;floor70height = 10;floor71height = 10;floor0walls = 0;floor1walls = 0;floor2walls = 0;floor3walls = 0;floor4walls = 0;floor5walls = 0;floor6walls = 0;floor7walls = 0;floor8walls = 0;floor9walls = 0;floor10walls = 0;floor11walls = 0;floor12walls = 0;floor13walls = 0;floor14walls = 0;floor15walls = 0;floor16walls = 0;floor17walls = 0;floor18walls = 0;floor19walls = 0;floor20walls = 0;floor21walls = 0;floor22walls = 0;floor23walls = 0;floor24walls = 0;floor25walls = 0;floor26walls = 0;floor27walls = 0;floor28walls = 0;floor29walls = 0;floor30walls = 0;floor31walls = 0;floor32walls = 0;floor33walls = 0;floor34walls = 0;floor35walls = 0;floor36walls = 0;floor37walls = 0;floor38walls = 0;floor39walls = 0;floor40walls = 0;floor41walls = 0;floor42walls = 0;floor43walls = 0;floor44walls = 0;floor45walls = 0;floor46walls = 0;floor47walls = 0;floor48walls = 0;floor49walls = 0;floor50walls = 0;floor51walls = 0;floor52walls = 0;floor53walls = 0;floor54walls = 0;floor55walls = 0;floor56walls = 0;floor57walls = 0;floor58walls = 0;floor59walls = 0;floor60walls = 0;floor61walls = 0;floor62walls = 0;floor63walls = 0;floor64walls = 0;floor65walls = 0;floor66walls = 0;floor67walls = 0;floor68walls = 0;floor69walls = 0;floor70walls = 0;floor71walls = 0;floor0cuts = 0;floor1cuts = 0;floor2cuts = 0;floor3cuts = 0;floor4cuts = 0;floor5cuts = 0;floor6cuts = 0;floor7cuts = 0;floor8cuts = 0;floor9cuts = 0;floor10cuts = 0;floor11cuts = 0;floor12cuts = 0;floor13cuts = 0;floor14cuts = 0;floor15cuts = 0;floor16cuts = 0;floor17cuts = 0;floor18cuts = 0;floor19cuts = 0;floor20cuts = 0;floor21cuts = 0;floor22cuts = 0;floor23cuts = 0;floor24cuts = 0;floor25cuts = 0;floor26cuts = 0;floor27cuts = 0;floor28cuts = 0;floor29cuts = 0;floor30cuts = 0;floor31cuts = 0;floor32cuts = 0;floor33cuts = 0;floor34cuts = 0;floor35cuts = 0;floor36cuts = 0;floor37cuts = 0;floor38cuts = 0;floor39cuts = 0;floor40cuts = 0;floor41cuts = 0;floor42cuts = 0;floor43cuts = 0;floor44cuts = 0;floor45cuts = 0;floor46cuts = 0;floor47cuts = 0;floor48cuts = 0;floor49cuts = 0;floor50cuts = 0;floor51cuts = 0;floor52cuts = 0;floor53cuts = 0;floor54cuts = 0;floor55cuts = 0;floor56cuts = 0;floor57cuts = 0;floor58cuts = 0;floor59cuts = 0;floor60cuts = 0;floor61cuts = 0;floor62cuts = 0;floor63cuts = 0;floor64cuts = 0;floor65cuts = 0;floor66cuts = 0;floor67cuts = 0;floor68cuts = 0;floor69cuts = 0;floor70cuts = 0;floor71cuts = 0;floor0doors = 0;floor1doors = 0;floor2doors = 0;floor3doors = 0;floor4doors = 0;floor5doors = 0;floor6doors = 0;floor7doors = 0;floor8doors = 0;floor9doors = 9;floor10doors = 0;floor11doors = 0;floor12doors = 0;floor13doors = 0;floor14doors = 0;floor15doors = 0;floor16doors = 0;floor17doors = 0;floor18doors = 0;floor19doors = 0;floor20doors = 0;floor21doors = 0;floor22doors = 0;floor23doors = 0;floor24doors = 0;floor25doors = 0;floor26doors = 0;floor27doors = 0;floor28doors = 0;floor29doors = 0;floor30doors = 0;floor31doors = 0;floor32doors = 0;floor33doors = 0;floor34doors = 0;floor35doors = 0;floor36doors = 0;floor37doors = 0;floor38doors = 0;floor39doors = 0;floor40doors = 0;floor41doors = 0;floor42doors = 0;floor43doors = 0;floor44doors = 0;floor45doors = 0;floor46doors = 0;floor47doors = 0;floor48doors = 0;floor49doors = 0;floor50doors = 0;floor51doors = 0;floor52doors = 0;floor53doors = 0;floor54doors = 0;floor55doors = 0;floor56doors = 0;floor57doors = 0;floor58doors = 0;floor59doors = 0;floor60doors = 0;floor61doors = 0;floor62doors = 0;floor63doors = 0;floor64doors = 0;floor65doors = 0;floor66doors = 0;floor67doors = 0;floor68doors = 0;floor69doors = 0;floor70doors = 0;floor71doors = 0;lift1 = 1;lift2 = 0;lift3 = 0;lift4 = 0;lift5 = 0;lift6 = 0;lift7 = 0;lift8 = 0;lift9 = 0;lift10 = 0;lift11 = 0;lift12 = 0;lift13 = 0;lift14 = 0;lift15 = 0;lift16 = 0;lift17 = 0;lift18 = 0;lift19 = 0;lift20 = 0;lift21 = 0;lift22 = 0;lift23 = 0;lift24 = 0;lift25 = 0;lift26 = 0;lift27 = 0;lift28 = 0;lift29 = 0;lift30 = 0;lift31 = 0;lift32 = 0;lift33 = 0;lift34 = 0;lift35 = 0;lift36 = 0;zfloor1 = 'windows11e_inside.gif';zfloor2 = 'windows11e_inside.gif';zfloor3 = 'windows11e_inside.gif';zfloor4 = 'windows11e_inside.gif';zcei1 = 'windows11e_inside.gif';zcei2 = 'windows11e_inside.gif';zcei3 = 'windows11e_inside.gif';zcei4 = 'windows11e_inside.gif';zoutwin1 = 'windows11e_inside.gif';zoutwin2 = 'windows11e_inside.gif';zoutwin3 = 'windows11e_inside.gif';zoutwin4 = 'windows11e_inside.gif';zinwin1 = 'windows11e_inside.gif';zinwin2 = 'windows11e_inside.gif';zinwin3 = 'windows11e_inside.gif';zinwin4 = 'windows11e_inside.gif';zintwall1 = 'windows11e_inside.gif';zintwall2 = 'windows11e_inside.gif';zintwall3 = 'windows11e_inside.gif';zintwall4 = 'windows11e_inside.gif';zshaft = 'windows11e_inside.gif';zgrass = 'windows11e_inside.gif';zdoor = 'miscdoor89.gif';zzfloor1 = 0.1;zzfloor2 = 0.1;zzfloor3 = 0.1;zzfloor4 = 0.1;zzcei1 = 0.1;zzcei2 = 0.1;zzcei3 = 0.1;zzcei4 = 0.1;zzoutwin1 = 0.1;zzoutwin2 = 0.1;zzoutwin3 = 0.1;zzoutwin4 = 0.1;zzinwin1 = 0.1;zzinwin2 = 0.1;zzinwin3 = 0.1;zzinwin4 = 0.1;zzintwall1 = 0.1;zzintwall2 = 0.1;zzintwall3 = 0.1;zzintwall4 = 0.1;zzshaft = 0.2;zzgrass = 0.025;thickness = 0.5;zgray = 'windows11e_inside.gif';zside = 'windows11e_inside.gif';zglass = 'windows11e_inside.gif';zzgray = 0.1;zzside = 0.2;zzglass = 0.5;
+<Floor -10>
+ID = -10
+Name = -10
+Type = Office
+Height = 6
+InterfloorHeight = 4
+<endfloor>
+AddShaft 1, 2, 337, -195, -1, 10
+cut external, 332.5, ((Floor(0).Altitude) + 3), -199.5, 341.5, ((Floor(10).Altitude) + 5), -190.5, false, true
+cut external, 332.5, ((Floor(0).Altitude) + 3), -199.5, 341.5, ((Floor(10).Altitude) + 14), -190.5, true, false
+cut Landscape, 332.5, ((Floor(0).Altitude) + 3), -199.5, 341.5, ((Floor(10).Altitude) + 5), -190.5, false, true
+<Floors 0 to 10>
+cut 332.5, 3, -199.5, 341.5, 1000, -190.5, true, true
+SetAutoSize = true, true
+DrawWalls = true, true, false, false, false, false
+AddWall a, zglass, 0, 341.5, -199.5, 341.5, -190.5, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+DrawWalls = true, true, false, false, false, false
+AddWall a, zglass, 0, 332.5, -199.5, 332.5, -190.5, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+DrawWalls = true, true, false, false, false, false
+AddWall a, zglass, 0, 332.5, -190.5, 341.5, -190.5, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddWall a, shaft1, 0, 332, -200, 342, -200, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+DrawWalls = false, true, false, false, false, false
+AddShaftWall 1, a, zshaft, 0, -4.5, -4.5, 4.5, -4.5, %fullheight%, %fullheight%, 4, 4, 0, 0
+DrawWalls = true, true, false, false, false, false
+AddWall a, shaft1, 0, 341.5, -199.5, 342, -200, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+DrawWalls = true, true, false, false, false, false
+AddWall a, shaft1, 0, 332.5, -199.5, 332, -200, %fullheight%, %fullheight%, 0, 0, 0, 0, False
+<endfloors>
+<floor -1>
+DrawWalls = false, true, false, false, false, false
+AddWall a, shaft1, 0, 342, -200, 342, -190, 2, 2, 8, 8, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddWall a, shaft1, 0, 332, -200, 332, -190, 2, 2, 8, 8, 0, 0, False
+DrawWalls = false, true, false, false, false, false
+AddWall a, shaft1, 0, 332, -190, 342, -190, 2, 2, 8, 8, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddWall a, shaft1, 0, 332, -200, 342, -200, 2, 2, 8, 8, 0, 0, False
+AddFloor a, shaft1, 0, 332, -200, 342, -190, 8, 8, 0, 0, False
+DrawWalls = true, false, false, false, false, false
+AddShaftWall 1, a, zshaft, 0, 4.5, -4.5, 4.5, 4.5, 1.1, 1.1, 12.9, 12.9, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddShaftWall 1, a, zshaft, 0, -4.5, -4.5, -4.5, 4.5, 1.1, 1.1, 12.9, 12.9, 0, 0
+DrawWalls = true, false, false, false, false, false
+AddShaftWall 1, a, zshaft, 0, -4.5, 4.5, 4.5, 4.5, 1.1, 1.1, 12.9, 12.9, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddShaftWall 1, a, zshaft, 0, -4.5, -4.5, 4.5, -4.5, 1.1, 1.1, 12.9, 12.9, 0, 0
+AddShaftFloor 1, a, zshaft, 0, -5, -5, 5, 5, 12.9, 12.9, 0, 0
+<endfloor>
+<floor 10>
+DrawWalls = true, false, false, false, false, false
+AddShaftFloor 1, a, zshaft, 0, -5, -5, 5, 5, (%fullheight% + 3.98), (%fullheight% + 3.98), 0, 0
+<endfloor>
+<Elevator 1>
+Speed = 10
+Acceleration = 0.32
+Deceleration = 0.32
+Acceljerk = 0.6
+Deceljerk = 0.6
+ServicedFloors = 0 - 10
+AssignedShaft = 1
+Doors = 1
+IdleSound = otis4_elevidle2.wav
+CreateElevator True, 0, 0, 0
+<endelevator>
+<Elevator 1>
+CarStartSound = elevstart.wav
+CarMoveSound = elevmove.wav
+CarStopSound = elevstop.wav
+MotorStartSound = motor_start.wav
+MotorRunSound = motor_running.wav
+MotorStopSound = motor_stop.wav
+LevelingOffset = 0.05
+LevelingSpeed = 0.2
+OpenSound 1 = EG881Sounds/elevopenquick3.wav
+CloseSound 1 = EG881Sounds/elevclosequick3.wav
+UpChimeSound 1 = chime2-up.wav
+DownChimeSound 1 = chime2-down.wav
+OpenSpeed 1 = 0.7
+DoorTimer 1 = 6000
+NudgeTimer 1 = 0
+SetAutoSize = true, true
+DrawWalls = true, false, false, false, false, false
+AddFloor a, liftoutside, 0, -4, -4, 4, 4, -1, -1, 0, 0
+SetAutoSize = false, false
+AddFloor a, gcei, 0, -4, -4, 4, 4, 8, 8, 0, 0
+DrawWalls = false, true, false, false, false, false
+SetAutoSize = true, true
+AddFloor a, liftoutside, 0, -4, -4, 4, 4, 9, 9, 0, 0
+SetAutoSize = false, false
+AddFloor a, gfloor, 0, -4, -4, 4, 4, 0, 0, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddWall a, liftoutside, 0, 4, -4, 4, 4, 1, 1, -1, -1, 0, 0
+DrawWalls = true, false, false, false, false, false
+AddWall a, liftoutside, 0, -4, -4, -4, 4, 1, 1, -1, -1, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddWall a, liftoutside, 0, -4, 4, 4, 4, 1, 1, -1, -1, 0, 0
+DrawWalls = true, false, false, false, false, false
+AddWall a, liftoutside, 0, -4, -4, 4, -4, 1, 1, -1, -1, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddWall a, liftoutside, 0, 4, -4, 4, 4, 1, 1, 8, 8, 0, 0
+DrawWalls = true, false, false, false, false, false
+AddWall a, liftoutside, 0, -4, -4, -4, 4, 1, 1, 8, 8, 0, 0
+DrawWalls = false, true, false, false, false, false
+AddWall a, liftoutside, 0, -4, 4, 4, 4, 1, 1, 8, 8, 0, 0
+DrawWalls = true, false, false, false, false, false
+AddWall a, liftoutside, 0, -4, -4, 4, -4, 1, 1, 8, 8, 0, 0
+SetAutoSize = false, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, glogo, 0, -3.98, -1, -3.98, -0.6, 0.4, 0.4, 4, 4, 0, 0
+AddFloorIndicator gnumber, right, -3.98, 0, 0.46, 0.46, 6
+SetAutoSize = false, false
+DrawWalls = true, false, false, false, false, false
+AddWall a, glogo, 0, 3.98, 0.6, 3.98, 1, 0.4, 0.4, 4, 4, 0, 0
+AddFloorIndicator gnumber, left, 3.98, 0, 0.46, 0.46, 6
+SetAutoSize = false, false
+DrawWalls = true, true, false, false, false, false
+AddWall a, glasss, 0, -4, 4, 4, 4, 8, 8, 0, 0, 0, 0
+SetAutoSize = false, false
+DrawWalls = true, true, false, false, false, false
+AddWall a, glasss, 0, -4, -4, -4, 4, 8, 8, 0, 0, 0, 0
+SetAutoSize = false, false
+DrawWalls = true, true, false, false, false, false
+AddWall a, glasss, 0, 4, -4, 4, 4, 8, 8, 0, 0, 0, 0
+SetAutoSize = false, false
+DrawWalls = false, true, false, false, false, false
+AddWall a, gwalll, 0, -4, -4, -2, -4, 8, 8, 0, 0, 0, 0
+AddWall a, gwalll, 0, 2, -4, 4, -4, 8, 8, 0, 0, 0, 0
+SetAutoSize = true, true
+DrawWalls = true, false, false, false, false, false
+AddWall a, liftoutside, 0, -4, -4, -2, -4, 8, 8, 0, 0, 0, 0
+AddWall a, liftoutside, 0, 2, -4, 4, -4, 8, 8, 0, 0, 0, 0
+AddDoors 1, doorr, doorr, 0.2, 0, -4.12, 4.08, 8, true, 0, 0
+AddShaftDoors 1, doorr, doorr, 0.2, 0, -4.4, 0, 0
+CreatePanel grey, 7, 3, right, -3.98, 0, 0.11, 0.11, 0.2, 0.2, 4.4, 0, 0
+AddButton 1, buttonsound.wav, gbuttonopen, gbuttonopen, 7, 1, open, 1, 1
+AddButton 1, buttonsound.wav, gbuttonclose, gbuttonclose, 7, 2, close, 1, 1
+AddButton 1, buttonsound.wav, gbuttonalarm, gbuttonalarm, 7, 3, alarm, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton0, gbuttonlit0, 6, 1, 0, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton1, gbuttonlit1, 6, 2, 1, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton2, gbuttonlit2, 6, 3, 2, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton3, gbuttonlit3, 5, 1, 3, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton4, gbuttonlit4, 5, 2, 4, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton5, gbuttonlit5, 5, 3, 5, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton6, gbuttonlit6, 4, 1, 6, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton7, gbuttonlit7, 4, 2, 7, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton8, gbuttonlit8, 4, 3, 8, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton9, gbuttonlit9, 3, 1, 9, 1, 1
+AddButton 1, lg_buttonsound.wav, gbutton10, gbuttonlit10, 3, 2, 10, 1, 1
+CreatePanel grey, 7, 3, left, 3.98, 0, 0.11, 0.11, 0.2, 0.2, 4.4, 0, 0
+AddButton 2, buttonsound.wav, gbuttonopen, gbuttonopen, 7, 1, open, 1, 1
+AddButton 2, buttonsound.wav, gbuttonclose, gbuttonclose, 7, 2, close, 1, 1
+AddButton 2, buttonsound.wav, gbuttonalarm, gbuttonalarm, 7, 3, alarm, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton0, gbuttonlit0, 6, 1, 0, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton1, gbuttonlit1, 6, 2, 1, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton2, gbuttonlit2, 6, 3, 2, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton3, gbuttonlit3, 5, 1, 3, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton4, gbuttonlit4, 5, 2, 4, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton5, gbuttonlit5, 5, 3, 5, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton6, gbuttonlit6, 4, 1, 6, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton7, gbuttonlit7, 4, 2, 7, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton8, gbuttonlit8, 4, 3, 8, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton9, gbuttonlit9, 3, 1, 9, 1, 1
+AddButton 2, lg_buttonsound.wav, gbutton10, gbuttonlit10, 3, 2, 10, 1, 1
+<Endelevator>
+<floor 0>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 1>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 2>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 3>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 4>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 5>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 6>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 7>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 8>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 9>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+<floor 10>
+CallButtonElevators = 1
+CreateCallButtons grey, gup, gupl, gdown, gdownl, 340.5, -200.02, 4, front, 0.3, 0.6, true, 0, 0
+AddDirectionalIndicator 1, True, False, False, True, grey, garrowup, garrowupl, garrowdown, garrowdownl, 3.2, -5.02, 6, front, 0.4, 0.8, True, 0, 0
+<endfloor>
+ShowFullShaft 1 = true
+ShaftShowOutside 1 = -9 - 62
+ShaftShowFloors 1 = -9 - 62
+<elevator 1>
+NotifyEarly = 2
+<endelevator>
+<floor -9>
+Group = -9 - -6
+<endfloor>
+<floor -8>
+Group = -9 - -5
+<endfloor>
+<floor -7>
+Group = -9 - -4
+<endfloor>
+<floor -6>
+Group = -9 - -3
+<endfloor>
+<floor -5>
+Group = -8 - -2
+<endfloor>
+<floor -4>
+Group = -7 - -1
+<endfloor>
+<floor -3>
+Group = -6 - 0
+<endfloor>
+<floor -2>
+Group = -5 - 1
+<endfloor>
+<floor -1>
+Group = -4 - 2
+<endfloor>
+<floor 0>
+Group = -3 - 3
+<endfloor>
+<floor 1>
+Group = -2 - 4
+<endfloor>
+<floor 2>
+Group = -1 - 5
+<endfloor>
+<floor 3>
+Group = 0 - 6
+<endfloor>
+<floor 4>
+Group = 1 - 7
+<endfloor>
+<floor 5>
+Group = 2 - 8
+<endfloor>
+<floor 6>
+Group = 3 - 9
+<endfloor>
+<floor 7>
+Group = 4 - 10
+<endfloor>
+<floor 8>
+Group = 5 - 11
+<endfloor>
+<floor 9>
+Group = 6 - 12
+<endfloor>
+<floor 10>
+Group = 7 - 13
+<endfloor>
+<floor 11>
+Group = 8 - 14
+<endfloor>
+<floor 12>
+Group = 9 - 15
+<endfloor>
+<floor 13>
+Group = 10 - 16
+<endfloor>
+<floor 14>
+Group = 11 - 17
+<endfloor>
+<floor 15>
+Group = 12 - 18
+<endfloor>
+<floor 16>
+Group = 13 - 19
+<endfloor>
+<floor 17>
+Group = 14 - 20
+<endfloor>
+<floor 18>
+Group = 15 - 21
+<endfloor>
+<floor 19>
+Group = 16 - 22
+<endfloor>
+<floor 20>
+Group = 17 - 23
+<endfloor>
+<floor 21>
+Group = 18 - 24
+<endfloor>
+<floor 22>
+Group = 19 - 25
+<endfloor>
+<floor 23>
+Group = 20 - 26
+<endfloor>
+<floor 24>
+Group = 21 - 27
+<endfloor>
+<floor 25>
+Group = 22 - 28
+<endfloor>
+<floor 26>
+Group = 23 - 29
+<endfloor>
+<floor 27>
+Group = 24 - 30
+<endfloor>
+<floor 28>
+Group = 25 - 31
+<endfloor>
+<floor 29>
+Group = 26 - 32
+<endfloor>
+<floor 30>
+Group = 27 - 33
+<endfloor>
+<floor 31>
+Group = 28 - 34
+<endfloor>
+<floor 32>
+Group = 29 - 35
+<endfloor>
+<floor 33>
+Group = 30 - 36
+<endfloor>
+<floor 34>
+Group = 31 - 37
+<endfloor>
+<floor 35>
+Group = 32 - 38
+<endfloor>
+<floor 36>
+Group = 33 - 39
+<endfloor>
+<floor 37>
+Group = 34 - 40
+<endfloor>
+<floor 38>
+Group = 35 - 41
+<endfloor>
+<floor 39>
+Group = 36 - 42
+<endfloor>
+<floor 40>
+Group = 37 - 43
+<endfloor>
+<floor 41>
+Group = 38 - 44
+<endfloor>
+<floor 42>
+Group = 39 - 45
+<endfloor>
+<floor 43>
+Group = 40 - 46
+<endfloor>
+<floor 44>
+Group = 41 - 47
+<endfloor>
+<floor 45>
+Group = 42 - 48
+<endfloor>
+<floor 46>
+Group = 43 - 49
+<endfloor>
+<floor 47>
+Group = 44 - 50
+<endfloor>
+<floor 48>
+Group = 45 - 51
+<endfloor>
+<floor 49>
+Group = 46 - 52
+<endfloor>
+<floor 50>
+Group = 47 - 53
+<endfloor>
+<floor 51>
+Group = 48 - 54
+<endfloor>
+<floor 52>
+Group = 49 - 55
+<endfloor>
+<floor 53>
+Group = 50 - 56
+<endfloor>
+<floor 54>
+Group = 51 - 57
+<endfloor>
+<floor 55>
+Group = 52 - 58
+<endfloor>
+<floor 56>
+Group = 53 - 59
+<endfloor>
+<floor 57>
+Group = 54 - 60
+<endfloor>
+<floor 58>
+Group = 55 - 61
+<endfloor>
+<floor 59>
+Group = 56 - 62
+<endfloor>
+<floor 60>
+Group = 57 - 62
+<endfloor>
+<floor 61>
+Group = 58 - 62
+<endfloor>
+<floor 62>
+Group = 59 - 62
+<endfloor>
